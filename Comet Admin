@@ -1,6 +1,6 @@
 pcall(function()
 --[[
- ☄️ Welcome to Comet ☄️
+ ☄️ Welcome to Comet Admin ☄️
 Feel free to look at the source
 ]]
 local CometGUI = Instance.new("ScreenGui")
@@ -1178,7 +1178,7 @@ Comet.Draggable = true
 Scroller.CanvasPosition = Vector2.new(0, 0)
 CometGUI.Parent = game.CoreGui
 
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Riotscripter/RiotExploits/main/notificationtest"))();
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Chaosscripter/Riotscripter/main/notificationtest"))();
 local Notify = Notification.Notify;
 if SupportedGame == true then
 	Notify({
