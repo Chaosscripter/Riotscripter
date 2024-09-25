@@ -25,11 +25,11 @@ local OrionLib = {
 	SaveCfg = false
 }
 
---Feather Icons https://github.com/Riotscripter/lucideblox/tree/master/src/modules/util - Created by Riotscripter
+--Feather Icons https://github.com/Chaosscripter/lucideblox/tree/master/src/modules/util - Created by Riotscripter
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/Riotscripter/lucideblox/master/src/modules/util/icons.json")).icons
+	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/Chaosscripter/lucideblox/master/src/modules/util/icons.json")).icons
 end)
 
 if not Success then
