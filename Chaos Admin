@@ -5,7 +5,7 @@ pcall(function()if game.PlaceId == 155615604 then
     Text = "Credits to Riotscripter!"; -- what the text says (ofc)
     Duration = 10;
   })
-  local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Chaosscripter/Riotscripter/main/Kavo%20ui%20lib"))()
+  local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Chaosscripter/Riotscripter/main/Kavo%20Library%202"))()
   local Window = Library.CreateLib("Chaos Admin [" .. os.date("%Y") .. "]", "Serpent")
   
         -- Auto kill all 
